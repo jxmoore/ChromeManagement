@@ -1,0 +1,19 @@
+{
+  "name": "deviceinfocollector",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsc && babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.1",
+    "@babel/preset-env": "^7.24.1",
+    "@babel/preset-typescript": "^7.24.1",
+    "@types/chrome": "^0.0.263",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.30"
+  }
+}
