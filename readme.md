@@ -1,4 +1,4 @@
-# Device Info Collector
+# Managed Chrome Device Information Messenger
 
 A compact Chrome extension designed for managed Chrome devices. It responds to predefined messages, akin to commands, by providing device-specific information upon receiving each message.
 
@@ -65,7 +65,7 @@ WIP
 
 #### Building
 
-The code can be built with NPM using `npm run build`. This will run babel and tsc, copying the contents to the dist directory. This does not in turn make an extension (CRX) though, for that you can use the [NPM CRX package](https://www.npmjs.com/package/crx?activeTab=readme) or chrome.
+The code can be built with NPM using `npm run build`. This will run webpack, copying the contents to the dist directory. This does not in turn make an extension (CRX) though, for that you can use the [NPM CRX package](https://www.npmjs.com/package/crx?activeTab=readme) or chrome.
 
 #### Testing
 

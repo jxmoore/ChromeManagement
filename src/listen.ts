@@ -38,12 +38,6 @@ chrome.runtime.onMessageExternal.addListener(
         });
         return true;
       }
-      case "getnetwork": {
-        chrome.enterprise.networkingAttributes.getNetworkDetails((x: any) => {
-          sendResponse({ data: x });
-        });
-        return true;
-      }
       default:
         sendResponse({ data: "you said " + messageType });
     }

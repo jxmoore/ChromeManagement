@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Managed Chrome Device Information Messenger",
+  "description": "Listens for messages and echos back the corresponding information about the given device",
+  "version": "1.0",
+  "update_url": "https://deviceinfoext.brandsmartleasing.com/updates.xml",
+  "background": {
+    "service_worker": "listen.js"
+  },
+  "permissions": ["enterprise.deviceAttributes"],
+  "externally_connectable": {
+    "matches": ["*://localhost:*/*", "*://*.com/*"]
+  }
+}
